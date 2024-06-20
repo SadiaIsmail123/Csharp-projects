@@ -1,0 +1,58 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace sales_system
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnsubmit_Click(object sender, EventArgs e)
+        {
+            int numitem;
+            double unitprice, grossamount, discount, netamount;
+            numitem = Convert.ToInt32(txtnumitem.Text);
+            unitprice = Convert.ToDouble(txtunitprice.Text);
+            grossamount = numitem * unitprice;
+            if (chkmembership.Checked)
+            {
+                discount = grossamount * 0.40;
+            }
+            else
+            {
+                discount = 0;
+            }
+            netamount = grossamount - discount;
+            txtgrossamount.Text = grossamount.ToString();
+            txtdiscount.Text = discount.ToString();
+            txtnetamount.Text = netamount.ToString();
+        }
+
+        private void btnclear_Click(object sender, EventArgs e)
+        {
+            txtnumitem.Clear();
+            txtunitprice.Clear();
+            txtgrossamount.Clear();
+            txtdiscount.Clear();
+            txtnetamount.Clear();
+        }
+
+        private void b btnexit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
