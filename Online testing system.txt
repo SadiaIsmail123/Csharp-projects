@@ -1,0 +1,86 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Radiobuttons
+{
+    public partial class frmTestingsystem : Form
+    {
+        public frmTestingsystem()
+        {
+            InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            String Q1A = "C";
+            String Q2A = "A";
+
+            int Correct = 0, Wrong = 0, Score = 0;
+            String opt = "";
+
+            // Q1
+            if(rbQ1A.Checked)
+            {
+                opt = "A";
+            }
+            else if (rbQ1B.Checked)
+            {
+                opt = "B";
+            }
+            else if (rbQ1C.Checked)
+            {
+                opt = "C";
+            }
+            if (opt == Q1A)
+            {
+                Correct++;
+            }
+            else
+            {
+                Wrong++;
+            }
+            opt = "";
+
+            //Q2
+            if (rbQ2A.Checked)
+            {
+                opt = "A";
+            }
+            else if (RBQ2B.Checked)
+            {
+                opt = "B";
+            }
+            else if (rbQ2C.Checked)
+            {
+                opt = "C";
+            }
+            if (opt == Q2A)
+            {
+                Correct++;
+            }
+            else
+            {
+                Wrong++;
+            }
+            Score = Correct * 10;
+            txtCorrect.Text = Correct.ToString();
+            txtWrong.Text =  Correct.ToString();
+            txtScore.Text = Correct.ToString();
+
+
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+    }
+}
