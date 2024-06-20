@@ -1,0 +1,15 @@
+E:\Semester Project\Semester Project\bin\Debug\Semester Project.exe.config
+E:\Semester Project\Semester Project\bin\Debug\Semester Project.exe
+E:\Semester Project\Semester Project\bin\Debug\Semester Project.pdb
+E:\Semester Project\Semester Project\obj\Debug\Semester Project.csproj.AssemblyReference.cache
+E:\Semester Project\Semester Project\obj\Debug\Semester_Project.Form1.resources
+E:\Semester Project\Semester Project\obj\Debug\Semester_Project.frmloginform.resources
+E:\Semester Project\Semester Project\obj\Debug\Semester_Project.Properties.Resources.resources
+E:\Semester Project\Semester Project\obj\Debug\Semester Project.csproj.GenerateResource.cache
+E:\Semester Project\Semester Project\obj\Debug\Semester Project.csproj.CoreCompileInputs.cache
+E:\Semester Project\Semester Project\obj\Debug\Semester Project.exe
+E:\Semester Project\Semester Project\obj\Debug\Semester Project.pdb
+E:\Semester Project\Semester Project\obj\Debug\Semester_Project.frmroomform.resources
+E:\Semester Project\Semester Project\obj\Debug\Semester_Project.frmdept.resources
+E:\Semester Project\Semester Project\obj\Debug\Semester_Project.frmstudent.resources
+E:\Semester Project\Semester Project\obj\Debug\Semester_Project.frmroomallotment.resources
